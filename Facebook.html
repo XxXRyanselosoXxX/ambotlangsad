@@ -35,15 +35,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
   z-index: 999;
   animation: introOut 1s ease forwards;
   animation-delay: 3s;
+  text-align: center;
 }
 
 .intro h1 {
   font-size: 2.4rem;
   letter-spacing: 2px;
   color: #000;
+  line-height: 1.2;
+  word-wrap: break-word;
+  max-width: 90%;
   animation: introPulse 1.5s infinite alternate;
 }
 
@@ -152,7 +157,6 @@ body {
 }
 
 .frame::after {
-  content: "PHOTO";
   position: absolute;
   inset: 14px;
   border-radius: 14px;
@@ -242,6 +246,12 @@ body {
   .message {
     transform: rotate(0deg);
   }
+
+  /* MOBILE FIX FOR INTRO */
+  .intro h1 {
+    font-size: 1.8rem;
+    padding: 0 15px;
+  }
 }
 </style>
 </head>
@@ -273,7 +283,7 @@ for (let i = 0; i < 30; i++) {
 
 This is our third New Year together, and I never thought I would be writing these words knowing it’s also our last. Time feels strange right now like it moved too fast and still somehow not fast enough. But if there’s one thing I’m grateful for, it’s that I got to share these years with you.
 
-Thank you for the laughter that came naturally, the quiet moments that didn’t need words, and even the hard days that taught me how deeply I could care for someone. You were never just part of my year—you were the part that made it meaningful. Loving you was never a question; it was something my heart just knew how to do.
+Thank you for the laughter that came naturally, the quiet moments that didn’t need words, and even the hard days that taught me how deeply I could care for someone. You were never just part of my year you were the part that made it meaningful. Loving you was never a question. It was something my heart just knew how to do.
 
 As this year ends and our chapter closes, I want you to know that what we had was real, and it mattered. You mattered. You will always be a beautiful part of my story, and no matter where life takes us next, I will carry these memories with nothing but gratitude. I wish you happiness, peace, and a love that feels warm and safe the way you once made me feel.
 
@@ -289,7 +299,7 @@ Thank you for everything.</p>
 </section>
 
 <!-- PHOTOS -->
-<h3 class="section-title">PICTURES OF MY FAVORITE PERSON!</h3>
+<h3 class="section-title">OUR FIRST PICTURE AND PICTURES OF MY FAVORITE PERSON!</h3>
 <div class="photos">
   <div class="frame">
     <img src="photo1.jpg">
@@ -303,10 +313,10 @@ Thank you for everything.</p>
 </div>
 
 <!-- MESSAGE -->
-<h3 class="section-title">Message</h3>
+<h3 class="section-title">My message for you gwapa</h3>
 <div class="message">
   <p>
-    If there’s one thing I hope you remember after all of this, it’s this:
+    If there’s one thing I hope you remember after all of this, 
 please choose yourself, even on the days when it feels hardest.
 Please don’t hurt yourself trying to hold onto pain that was never meant to be carried alone. You deserve care, patience, and gentleness especially from yourself.
 
@@ -315,7 +325,9 @@ Reach out to someone who loves you. Rest when you need to.
 You don’t have to be strong all the time to be worthy of love.
 Your life is bigger than this ending, and your future still has room for light, laughter, and peace.
 
-If I can’t be there anymore, let this be the thing I leave with you:
+I only have one photo of us, I will treasure this till I found my other half, Thankyou Palangga.
+
+If I can’t be there anymore, let this be the thing I leave with you
 a quiet reminder that you matter, that your heart is worth protecting, and that staying is always braver than giving up. Please live fully, love deeply, and be kind to the girl who has already survived so much.
 
 That’s all I ever wanted for you.
@@ -330,6 +342,5 @@ That’s all I ever wanted for you.
 </div>
 
 </div>
-
 </body>
 </html>
